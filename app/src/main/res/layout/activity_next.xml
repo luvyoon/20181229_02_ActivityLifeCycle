@@ -5,15 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".NextActivity">
 
-    <Button
-        android:id="@+id/moveBtn"
-        android:text="다른화면으로 이동"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:textSize="25sp"
+        android:text="다음화면"
+        android:gravity="center"/>
 
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이 화면을 종료"/>
 
 
 </LinearLayout>
